@@ -1,14 +1,14 @@
 {
   "name": "workmanagementsystem",
-  "homepage": "https://myusername.github.io/workManagementSystem",
+  "homepage": "https://github.com/Rubul-Tanti/Work-management-system.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "vite",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
+    "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview"
   },

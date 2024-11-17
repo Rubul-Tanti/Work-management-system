@@ -175,8 +175,8 @@ export const Employelist = [
 export const Adminlist=[
   { name:"Rubul tanti",
     id: "1",
-    email: "2",
-    password: "2",
+    email: "admin1@example.com",
+    password: "Admin123",
     asignTasks:[ {
       title: "Implement login feature",
       description: "Add user login functionality with form validation.",

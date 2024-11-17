@@ -5,7 +5,7 @@ import Admintasklist from './Admintasklist'
 
 const Admin = () => {
   return (
-    <div className="min-h-screen w-full px-20  ">
+    <div className="min-h-screen w-full px-5  ">
       <Header/>
        <CreateTask/>
        <Admintasklist/>

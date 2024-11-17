@@ -14,10 +14,14 @@ const login = () => {
   }
  
     
-  return (
-    <div className='h-screen w-full flex justify-center items-center'>
+  return (<div className='p-5 h-screen'>
+<h1>demo data:employ email id:: alice.johnson@example.com password :: id123 </h1>
+<h1>demo data:employ email id:: edward.elric@example.com password :: id123 </h1>
+<h1>demo data:Admin email id:: admin1@example.com password :: Admin123 </h1>
+<h1>demo employId ::"1" password:: "1" </h1>
+    <div className=' w-full flex justify-center pt-20 items-center'>
         <form onSubmit={(event)=>{handleOnSubmit(event)}}>
-      <div className="flex flex-col w-[30vw] h-[70vh] gap-10 shadow-lg p-10 justify-center items-center shadow-purple-300  rounded-xl border border-purple-100">
+      <div className="flex flex-col w-[300px] md:w-[500px]  gap-10 shadow-lg p-20 justify-center items-center shadow-purple-300  rounded-xl border border-purple-100">
 
         <input type="text" ref={Email} placeholder='enter name' className='border w-full outline-none border-purple-400 rounded-md'/>
         <input ref={Password}  type ="password" placeholder='enter password'className='outline-none border w-full border-purple-400 rounded-md' />
@@ -26,6 +30,7 @@ const login = () => {
         </form>
       
     </div>
+  </div>
   )
 }
 

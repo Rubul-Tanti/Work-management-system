@@ -59,9 +59,9 @@ Employdata.map((item)=>{
   return (
     <div>
       
-      <form onSubmit={(event)=>{handleOnClick(event)}} className=' bg-zinc-900 gap-10 justify-between w-1/2 placeholder:text-gray-500 text-black p-10 flex flex-row'>
-      <div className='flex flex-col rounded-lg'>
-<label htmlFor="title">Task title</label>
+      <form onSubmit={(event)=>{handleOnClick(event)}} className=' bg-zinc-900 gap-10 justify-between w-full lg:1/2 placeholder:text-gray-500 text-black p-10 flex lg:flex-row flex-col md:flex-row h-full '>
+      <div className='flex flex-col w-full lg:w-1/2 rounded-lg'>
+<label htmlFor="title ">Task title</label>
 <input id='title' placeholder='title' type="text"/>
 <label htmlFor="date">Date</label>
 <input id='date' type='date' ></input>
@@ -69,12 +69,12 @@ Employdata.map((item)=>{
 <input id='employeid' placeholder='id'></input>
 </div>
         
-        <div className='flex flex-col'>
+        <div className='flex flex-col w-full md:w-1/2'>
 
         <h3>description</h3>
-<textarea id='description'  className='w-72 h-44'  > </textarea>
+<textarea id='description'  className='w-full h-full'  > </textarea>
 
-        <button className="rounded-full mt-3 py-2 text-black bg-green-500">create task</button>
+        <button className="rounded-full mt-2 py-2 text-black bg-green-500">create task</button>
     
         </div>
         
