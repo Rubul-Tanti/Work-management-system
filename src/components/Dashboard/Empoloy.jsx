@@ -5,7 +5,7 @@ import Tasks from '../tasks'
 const Empoloy = () => {
   
   return (
-    <div className=' px-5 w-full h-full'>
+    <div className=' lg:px-5 w-full h-full'>
       <Header />
       <Nooftask></Nooftask>
     <Tasks></Tasks>

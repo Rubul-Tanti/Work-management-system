@@ -59,20 +59,20 @@ Employdata.map((item)=>{
   return (
     <div>
       
-      <form onSubmit={(event)=>{handleOnClick(event)}} className=' bg-zinc-900 gap-10 justify-between w-full lg:1/2 placeholder:text-gray-500 text-black p-10 flex lg:flex-row flex-col md:flex-row h-full '>
-      <div className='flex flex-col w-full lg:w-1/2 rounded-lg'>
-<label htmlFor="title ">Task title</label>
-<input id='title' placeholder='title' type="text"/>
-<label htmlFor="date">Date</label>
-<input id='date' type='date' ></input>
-<h3>asign to</h3>
-<input id='employeid' placeholder='id'></input>
+      <form onSubmit={(event)=>{handleOnClick(event)}} className=' bg-zinc-900 gap-10 justify-between w-full lg:1/2  p-10 flex lg:flex-row flex-col md:flex-row h-full '>
+      <div className='flex flex-col  gap-1  w-full lg:w-1/2 rounded-lg'>
+<label htmlFor="title " className='text-white' >Task title</label>
+<input id='title' placeholder='title' className='placeholder:text-black' type="text"/>
+<label htmlFor="date" className='text-white' >Date</label>
+<input id='date' type='date' className='placeholder:text-black'></input>
+<h3 className='text-white'>asign to</h3>
+<input id='employeid' placeholder='id'className='placeholder:text-black'></input>
 </div>
         
         <div className='flex flex-col w-full md:w-1/2'>
 
-        <h3>description</h3>
-<textarea id='description'  className='w-full h-full'  > </textarea>
+        <h3 className='text-white'>description</h3>
+<textarea id='description' placeholder='description'  className='w-full h-full placeholder:text-black'  > </textarea>
 
         <button className="rounded-full mt-2 py-2 text-black bg-green-500">create task</button>
     
